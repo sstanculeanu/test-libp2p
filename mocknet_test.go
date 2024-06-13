@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-var protocolID = protocol.ID("/erd/kad/1.0.0")
+var protocolID = protocol.ID("/test")
 
 func Test(t *testing.T) {
 	closers := make([]io.Closer, 0, 3)
